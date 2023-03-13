@@ -73,4 +73,12 @@ const letterFrequency = (phrase) => {
     return object;
 }
 
-console.log(letterFrequency("Hello my dear what is rocking"))
+// console.log(letterFrequency("Hello my dear what is rocking"))
+
+const wordFrequency = (phrase) =>
+{
+    let words = phrase.split(' ');
+    return letterFrequency(words);
+}
+
+console.log(wordFrequency('lol what lol yo yo yo men ban ban'))
